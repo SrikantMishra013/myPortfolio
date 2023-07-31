@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <!-- Page Navbar -->
+    <div class="navbar" id="myTopnav">
+        <div class="logo"><a href="#logo">Srikant Mishra</a></div>
+        <ul class="menu">
+            <li>
+                <a href="#home" class="smooth-scroll">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="smooth-scroll">About</a>
+            </li>
+            <li>
+                <a href="#skill_section" class="smooth-scroll">Skills</a>
+            </li>
+            <li>
+                <a href="#projects" class="smooth-scroll">Projects</a>
+            </li>
+            <!-- <li>
+                <a href="#timeline" class="smooth-scroll">Time-Line</a>
+            </li> -->
+            <li>
+                <a href="#contact" class="smooth-scroll">Contact</a>
+            </li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Srikant Mishra</span>
+            </h1>
+            <p class="header-subtitle">FRONTEND WEB DESIGNER</p>
+
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <div class="about" id="about">
+        <div class="about-img-holder">
+            <img src="image/srikant_2_346x533.jpg" class="about-img" alt="my image">
+        </div>
+        <div class="about-caption">
+            <p class="section-subtitle">Who Am I ?</p>
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident aut
+                fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta quibusdam
+                impedit iure nemo a iste culpa! Quasi quibusdam hic recusandae delectus velit officiis explicabo
+                voluptatibus! Nemo
+                esse similique, voluptates labore distinctio, placeat explicabo facilis molestias, blanditiis
+                culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum
+                expedita aliquid! Debitis, nam!
+            </p>
+            <button class="btn">Download CV</button>
+        </div>
+    </div> <!-- end of about section -->
+
+    <section class="skill_section" id="skill_section">
+        <h1>Skills & Experience</h1>
+        <div class="skill-section">
+            <div class="skills">
+                <h3>My Skills</h3>
+                <div class="myskill">
+                    <div class="col-1">
+                        <div class="skill">
+                            <div class="skillName">
+                                <h6>HTML</h6>
+                                <h6>95%</h6>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-level="95" style="background-color: rgb(236, 88, 34);"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skillName">
+                                <h6>CSS</h6>
+                                <h6>80%</h6>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-level="80" style="background-color: rgb(3, 90, 202);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="skill">
+                            <div class="skillName">
+                                <h6>JavaScript</h6>
+                                <h6>20%</h6>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-level="20" style="background-color: #FFD700;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skillName">
+                                <h6>SQL</h6>
+                                <h6>70%</h6>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-level="70" style="background-color: rgb(192, 31, 31);"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="achievement-section">
+                <h3>My Achievement</h3>
+                <div class="acievement">
+                    <ul>
+                        <li><a href="https://auth.geeksforgeeks.org/user/kadane4332" target="_blank">GeeksForGeeks</a>
+                        </li>
+                    </ul>
+                    <p>Solved over 200 problem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-section" id="projects">
+        <p>what I Did?</p>
+        <h2>Projects</h2>
+    </div>
+
+    <div class="project">
+        <a href="https://github.com/SrikantMishra013" target="_blank">
+            <div class="card">
+                <img src="image/project.jpg" alt="Project 1">
+                <div class="project-details" id="project-details-1">
+                    <h2>Dairy Farm Shop Management System</h2>
+                    <p>Developed a comprehensive Dairy Farm Shop Management System. Utilized HTML, CSS, JavaScript, PHP,
+                        and SQL to create a user-friendly and efficient system.</p>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/SrikantMishra013" target="_blank">
+            <div class="card">
+                <img src="image/project.jpg" alt="Project 2">
+                <div class="project-details" id="project-details-2">
+                    <h2>Book Reading Application<br></h2>
+                    <p>Developed a Book Reading Application using Java and Android Studio. Created an intuitive and
+                        userfriendly interface for browsing and reading books.</p>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/SrikantMishra013" target="_blank">
+            <div class="card">
+                <img src="image/project.jpg" alt="Project 3">
+                <div class="project-details" id="project-details-3">
+                    <h2>Predict whether person get a stroke or not using KNN algorithm</h2>
+                    <p>Implemented a predictive model using the k-Nearest Neighbors (KNN) algorithm to determine the
+                        likelihood of a person experiencing a stroke.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <!-- <a href="https://github.com/SrikantMishra013" target="_blank">
+                <div class="card">
+                    <img src="image/project.jpg" alt="Project 4">
+
+                    <div class="project-details" id="project-details-4">
+                        <h2>Project 4 Title</h2>
+                        <p>Description of Project 4.</p>
+                        <p>Additional information about Project 4.</p>
+                    </div>
+                </div>
+            </a> -->
+        <!-- Add more project cards here -->
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
