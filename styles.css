@@ -8,7 +8,6 @@ body {
     margin: 0;
     font-family: 'Baloo Paaji 2', cursive;
     text-align: left;
-    /* background-color: red; */
 }
 
 ul {
@@ -23,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: rgb(223, 7, 7);
 }
 
 .navbar {
@@ -381,7 +380,7 @@ a:hover {
 .myskill {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
     font-family: sans-serif;
     font-size: 20px;
 }
@@ -418,12 +417,15 @@ a:hover {
 
 @media (max-width: 767.98px) {
     .skill-section {
-        flex-direction: column;
         gap: 0rem;
     }
 
     .progress-bar {
         min-width: 160px;
+    }
+
+    .myskill {
+        gap: 1rem;
     }
 }
 
