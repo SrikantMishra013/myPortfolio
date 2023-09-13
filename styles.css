@@ -212,19 +212,21 @@ a:hover {
     text-align: justify;
 }
 
-.btn {
+.download {
     background-color: transparent;
     border: 1px solid #5d4aaa;
     border-radius: 25px;
     font-size: 15px;
+    font-family: sans-serif;
     padding: 10px;
     color: #5d4aaa;
     font-weight: 500;
 }
 
-.btn:hover {
+.download:hover {
     background-color: #5d4aaa;
     color: #f7f7f8;
+    cursor: pointer;
 }
 
 @media (max-width: 767.98px) {
